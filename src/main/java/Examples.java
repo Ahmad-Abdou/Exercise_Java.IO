@@ -9,11 +9,11 @@ public class Examples {
 
      List<String> content= Arrays.asList(
              "Hello", "World");
-        System.out.println("Writing...");
+        System.out.println("Writing File...");
      File url= new File("C:\\Users\\glory\\OneDrive\\Desktop/example.txt");
      write(url, content);
 
-        System.out.println("Reading...");
+        System.out.println("Reading File...");
         File url2= new File("C:\\Users\\glory\\OneDrive\\Desktop/example.txt");
         for(String string : read(url2)){
             System.out.println(string);
